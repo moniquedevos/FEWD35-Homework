@@ -12,19 +12,20 @@ border: #cccccc 4px solid;
 
 h1 {text-align: center;
 	color: #ffffff;
-	padding: 0 5px 5px;
+	padding: 0px 5px 5px;
 	font-style: italic;
 	font-weight: bold;
 
 
 }
-ul {text-align: center;
+ul {text-align: center; padding: 0px;
 }
 
 li  {display:inline; font-family: helvetica;
 	color: white;
 	font-weight: bold;
 	text-align: center;
+
 	}
 
 a {
@@ -33,12 +34,15 @@ a {
 
 .right-border { 
 	border-right:#cccccc 2px solid;
-	padding-right: 5px;
+	padding: 0px;
+	margin: 3px;
+	list-style-type: none;
+	text-align: center;
 
 }
 
 .divider { 
-	border:#cccccc 1px solid;
+	border-top:#cccccc 1px solid;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
