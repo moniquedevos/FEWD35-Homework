@@ -1,0 +1,171 @@
+.container { 
+	width: 900px;
+	padding: 0px;
+	overflow: hidden;
+	margin-right:10px;
+}
+
+.blog {
+	color: red;
+	font-family: roboto, sans-serif;
+	font-size: 36px;
+	font-weight: lighter;
+	padding-right: 10px;
+}
+.title {
+	font-family: roboto;
+	font-size: 18px;
+	color: #888888;
+	font-weight: lighter;
+}
+
+#navcontainer ul {
+	list-style-type: none;
+	text-align: center;
+	font-size: 14px;
+	font-family: roboto;
+	
+}
+
+#navcontainer ul li { 
+	display: inline; 
+	float: left;
+
+
+}
+
+#navcontainer ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 1em 3em;
+	background-color: black;
+	width: 100%;
+}
+.date {
+	font-size: 20px;
+	font-family: roboto;
+	color: #D1D1D1;
+	font-weight: lighter;
+}
+h2 {
+	font-weight: lighter;
+	color: black;
+	font-family: roboto;
+	font-size: 20px;
+}
+
+
+h1 {
+	font-size: 10px;
+	font-family: roboto;
+	color: #888888;
+	float: right;
+
+}
+
+img {
+	width: 500px;
+}
+
+p {
+	font-size: 12px;
+	font-family: roboto;
+	color: black;
+	line-height: 120%;
+	width: 500px;
+
+}
+
+p.C:first-letter {
+ font-size: 60px;
+ float: left; 
+color: #D1D1D1;
+ line-height: 35px;
+ padding-top: 3px; 
+ padding-right: 6px;
+ padding-bottom: 6px;
+ font-family: century gothic;
+
+}
+
+
+h3 {font-family: roboto;
+	font-size: 12px;
+	color: #888888;
+
+}
+
+.p2 { 
+	font-size: 12px;
+	font-family: roboto;
+	color: #888888;
+
+}
+
+  
+#col-1 {
+	width: 74%;
+	float: left;
+	position: absolute;
+}
+
+
+#col-2 {
+	width: 24%;
+	float: right;
+	position: relative;
+	
+}
+.divider { 
+	border-top:#cccccc 1px solid;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	width: 500px;
+}
+
+.redlink {
+	font-size: 12px;
+	font-family: roboto;
+	color: red;
+	font-weight: bold;
+	
+}
+
+.footermenu ul li {
+	color: red;
+	display: inline;
+	font-family: roboto;
+	font-size: 10px;
+	list-style-type: none;
+	float: left;
+	text-decoration: none;
+	border-right:#cccccc 1px solid;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+.footer {
+	font-size: 12px;
+	font-family: roboto;
+	font-weight: lighter;
+	color:#888888;
+}
+
+.divider2 {
+	border-top:#cccccc 1px solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 230px;
+}
+
+.posts ul li {
+	font-family: roboto;
+	font-size: 10px;
+	list-style-type: circle;
+	color: #888888;
+	text-decoration: none;
+}	
+.image2 
+	{width:250px}
