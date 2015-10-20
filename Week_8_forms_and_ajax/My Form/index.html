@@ -11,12 +11,12 @@
 <body>
 <div class="container">	
 <h1> My Form </h1>
-<form>
+<form method ="POST" action="/form">
   <div class="form-group">
 	<label>First Name </label>
-<input name= "first-name" type="text" id="my-input" />
+<input name= "firstname" type="text" id="my-input" />
 	<label>Last Name </label>
-<input name="last-name" type="text" id="my-input" />
+<input name="lastname" type="text" id="my-input" />
 <label> Email Address </label>
 <input name="email" type="email" />
 <label> Address </label>
@@ -35,7 +35,7 @@
   <div class="col-xs-6">
   	<label> State</label>
     <select name="state" class="form-control">
-    <option value="">Choose a State</option>	
+    <option value="">Select State</option>	
 	<option value="AL">Alabama</option>
 	<option value="AK">Alaska</option>
 	<option value="AZ">Arizona</option>
@@ -93,7 +93,7 @@
  <div class="col-xs-6">
   	<label> Country</label>
     <select name="country" class="form-control">>
-   <option value="">Choose a Country</option>	
+   <option value="">Select Country</option>	
 	<option value="AF">Afghanistan</option>
 	<option value="AX">Åland Islands</option>
 	<option value="AL">Albania</option>
