@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Wines</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" href="style.css" .>
+</head>
+<body>
+	<div class="container">	
+	<h1> Wines </h1>
+	<form id ="user-form" method "POST">  
+ 	 <div class="form-group">
+	<label>Name</label>
+	<input name= "name" type="text" id="my-input" />
+	<label>Year</label>
+	<input name="ear" type="text" id="my-input" />
+	<label>Grapes </label>
+	<input name="grapes" type="text" id="my-input" />
+	<label>Country</label>
+	<input name="country" type="text" />
+	<label>Region</label>
+	<input name="region" type="text" id="my-input" />
+  	<label>Price</label>
+    <input name="price" type="text" id="my-input" />
+  	<label>Description</label>
+    <input name="description" type="text" id="my-input" />
+    <div id="upload-area">
+	<form action="/playground/ajax_upload" id="wineImage">
+		<label>Upload a Picture of Wine</label>
+		<input type="file" name="pic" accept="image/*">
+		<div>
+		<button type="submit" class="btn btn-primary" id="submitWine">Submit New Wine</button>
+		<button type="button" class="btn btn-success" id="submit-button">Log Wines</button>
+	</div>
+	</form>
+</div>
+  </div>
+</div>
+<div>
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
